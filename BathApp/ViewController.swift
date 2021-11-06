@@ -13,6 +13,27 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    @IBOutlet weak var kuriemiHeight: NSLayoutConstraint!
+        
+    @IBOutlet weak var kuriemiBottomConstant: NSLayoutConstraint!
+    
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        
+        if motion != UIEvent.EventSubtype.motionShake {
+            return
+        }
+        
+        kuriemiBottomConstant.constant = kuriemiHeight.constant * -1
+        
+        UIView.animate(withDuration: 1.0, animations: {
+            self.view.layoutIfNeeded()
+        }, completion: {(finished: Bool) in
+            //
+        })
+        
+        
+    }
 
 
 }
