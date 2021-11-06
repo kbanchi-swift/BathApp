@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		805EE05827363D5F006F9A7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE05727363D5F006F9A7E /* AppDelegate.swift */; };
+		805EE05A27363D5F006F9A7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE05927363D5F006F9A7E /* SceneDelegate.swift */; };
+		805EE05C27363D5F006F9A7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE05B27363D5F006F9A7E /* ViewController.swift */; };
+		805EE05F27363D5F006F9A7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805EE05D27363D5F006F9A7E /* Main.storyboard */; };
+		805EE06227363D5F006F9A7E /* BathApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 805EE06027363D5F006F9A7E /* BathApp.xcdatamodeld */; };
+		805EE06427363D61006F9A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805EE06327363D61006F9A7E /* Assets.xcassets */; };
+		805EE06727363D61006F9A7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805EE06527363D61006F9A7E /* LaunchScreen.storyboard */; };
+		805EE07227363D61006F9A7E /* BathAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE07127363D61006F9A7E /* BathAppTests.swift */; };
+		805EE07C27363D61006F9A7E /* BathAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE07B27363D61006F9A7E /* BathAppUITests.swift */; };
+		805EE07E27363D61006F9A7E /* BathAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE07D27363D61006F9A7E /* BathAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		805EE06E27363D61006F9A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 805EE04C27363D5F006F9A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 805EE05327363D5F006F9A7E;
+			remoteInfo = BathApp;
+		};
+		805EE07827363D61006F9A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 805EE04C27363D5F006F9A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 805EE05327363D5F006F9A7E;
+			remoteInfo = BathApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		805EE05427363D5F006F9A7E /* BathApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BathApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		805EE05727363D5F006F9A7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		805EE05927363D5F006F9A7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		805EE05B27363D5F006F9A7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		805EE05E27363D5F006F9A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		805EE06127363D5F006F9A7E /* BathApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BathApp.xcdatamodel; sourceTree = "<group>"; };
+		805EE06327363D61006F9A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		805EE06627363D61006F9A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		805EE06827363D61006F9A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805EE06D27363D61006F9A7E /* BathAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BathAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		805EE07127363D61006F9A7E /* BathAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BathAppTests.swift; sourceTree = "<group>"; };
+		805EE07727363D61006F9A7E /* BathAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BathAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		805EE07B27363D61006F9A7E /* BathAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BathAppUITests.swift; sourceTree = "<group>"; };
+		805EE07D27363D61006F9A7E /* BathAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BathAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		805EE05127363D5F006F9A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EE06A27363D61006F9A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EE07427363D61006F9A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		805EE04B27363D5F006F9A7E = {
+			isa = PBXGroup;
+			children = (
+				805EE05627363D5F006F9A7E /* BathApp */,
+				805EE07027363D61006F9A7E /* BathAppTests */,
+				805EE07A27363D61006F9A7E /* BathAppUITests */,
+				805EE05527363D5F006F9A7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		805EE05527363D5F006F9A7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				805EE05427363D5F006F9A7E /* BathApp.app */,
+				805EE06D27363D61006F9A7E /* BathAppTests.xctest */,
+				805EE07727363D61006F9A7E /* BathAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		805EE05627363D5F006F9A7E /* BathApp */ = {
+			isa = PBXGroup;
+			children = (
+				805EE05727363D5F006F9A7E /* AppDelegate.swift */,
+				805EE05927363D5F006F9A7E /* SceneDelegate.swift */,
+				805EE05B27363D5F006F9A7E /* ViewController.swift */,
+				805EE05D27363D5F006F9A7E /* Main.storyboard */,
+				805EE06327363D61006F9A7E /* Assets.xcassets */,
+				805EE06527363D61006F9A7E /* LaunchScreen.storyboard */,
+				805EE06827363D61006F9A7E /* Info.plist */,
+				805EE06027363D5F006F9A7E /* BathApp.xcdatamodeld */,
+			);
+			path = BathApp;
+			sourceTree = "<group>";
+		};
+		805EE07027363D61006F9A7E /* BathAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				805EE07127363D61006F9A7E /* BathAppTests.swift */,
+			);
+			path = BathAppTests;
+			sourceTree = "<group>";
+		};
+		805EE07A27363D61006F9A7E /* BathAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				805EE07B27363D61006F9A7E /* BathAppUITests.swift */,
+				805EE07D27363D61006F9A7E /* BathAppUITestsLaunchTests.swift */,
+			);
+			path = BathAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		805EE05327363D5F006F9A7E /* BathApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805EE08127363D61006F9A7E /* Build configuration list for PBXNativeTarget "BathApp" */;
+			buildPhases = (
+				805EE05027363D5F006F9A7E /* Sources */,
+				805EE05127363D5F006F9A7E /* Frameworks */,
+				805EE05227363D5F006F9A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BathApp;
+			productName = BathApp;
+			productReference = 805EE05427363D5F006F9A7E /* BathApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		805EE06C27363D61006F9A7E /* BathAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805EE08427363D61006F9A7E /* Build configuration list for PBXNativeTarget "BathAppTests" */;
+			buildPhases = (
+				805EE06927363D61006F9A7E /* Sources */,
+				805EE06A27363D61006F9A7E /* Frameworks */,
+				805EE06B27363D61006F9A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				805EE06F27363D61006F9A7E /* PBXTargetDependency */,
+			);
+			name = BathAppTests;
+			productName = BathAppTests;
+			productReference = 805EE06D27363D61006F9A7E /* BathAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		805EE07627363D61006F9A7E /* BathAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805EE08727363D61006F9A7E /* Build configuration list for PBXNativeTarget "BathAppUITests" */;
+			buildPhases = (
+				805EE07327363D61006F9A7E /* Sources */,
+				805EE07427363D61006F9A7E /* Frameworks */,
+				805EE07527363D61006F9A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				805EE07927363D61006F9A7E /* PBXTargetDependency */,
+			);
+			name = BathAppUITests;
+			productName = BathAppUITests;
+			productReference = 805EE07727363D61006F9A7E /* BathAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		805EE04C27363D5F006F9A7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					805EE05327363D5F006F9A7E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					805EE06C27363D61006F9A7E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 805EE05327363D5F006F9A7E;
+					};
+					805EE07627363D61006F9A7E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 805EE05327363D5F006F9A7E;
+					};
+				};
+			};
+			buildConfigurationList = 805EE04F27363D5F006F9A7E /* Build configuration list for PBXProject "BathApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 805EE04B27363D5F006F9A7E;
+			productRefGroup = 805EE05527363D5F006F9A7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				805EE05327363D5F006F9A7E /* BathApp */,
+				805EE06C27363D61006F9A7E /* BathAppTests */,
+				805EE07627363D61006F9A7E /* BathAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		805EE05227363D5F006F9A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805EE06727363D61006F9A7E /* LaunchScreen.storyboard in Resources */,
+				805EE06427363D61006F9A7E /* Assets.xcassets in Resources */,
+				805EE05F27363D5F006F9A7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EE06B27363D61006F9A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EE07527363D61006F9A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		805EE05027363D5F006F9A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805EE06227363D5F006F9A7E /* BathApp.xcdatamodeld in Sources */,
+				805EE05C27363D5F006F9A7E /* ViewController.swift in Sources */,
+				805EE05827363D5F006F9A7E /* AppDelegate.swift in Sources */,
+				805EE05A27363D5F006F9A7E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EE06927363D61006F9A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805EE07227363D61006F9A7E /* BathAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EE07327363D61006F9A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805EE07C27363D61006F9A7E /* BathAppUITests.swift in Sources */,
+				805EE07E27363D61006F9A7E /* BathAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		805EE06F27363D61006F9A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 805EE05327363D5F006F9A7E /* BathApp */;
+			targetProxy = 805EE06E27363D61006F9A7E /* PBXContainerItemProxy */;
+		};
+		805EE07927363D61006F9A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 805EE05327363D5F006F9A7E /* BathApp */;
+			targetProxy = 805EE07827363D61006F9A7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		805EE05D27363D5F006F9A7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805EE05E27363D5F006F9A7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		805EE06527363D61006F9A7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805EE06627363D61006F9A7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		805EE07F27363D61006F9A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		805EE08027363D61006F9A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		805EE08227363D61006F9A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2BQ443478;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BathApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kbanchi1111.BathApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		805EE08327363D61006F9A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2BQ443478;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BathApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kbanchi1111.BathApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		805EE08527363D61006F9A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2BQ443478;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kbanchi1111.BathAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BathApp.app/BathApp";
+			};
+			name = Debug;
+		};
+		805EE08627363D61006F9A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2BQ443478;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kbanchi1111.BathAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BathApp.app/BathApp";
+			};
+			name = Release;
+		};
+		805EE08827363D61006F9A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2BQ443478;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kbanchi1111.BathAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BathApp;
+			};
+			name = Debug;
+		};
+		805EE08927363D61006F9A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2BQ443478;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kbanchi1111.BathAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BathApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		805EE04F27363D5F006F9A7E /* Build configuration list for PBXProject "BathApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805EE07F27363D61006F9A7E /* Debug */,
+				805EE08027363D61006F9A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805EE08127363D61006F9A7E /* Build configuration list for PBXNativeTarget "BathApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805EE08227363D61006F9A7E /* Debug */,
+				805EE08327363D61006F9A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805EE08427363D61006F9A7E /* Build configuration list for PBXNativeTarget "BathAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805EE08527363D61006F9A7E /* Debug */,
+				805EE08627363D61006F9A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805EE08727363D61006F9A7E /* Build configuration list for PBXNativeTarget "BathAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805EE08827363D61006F9A7E /* Debug */,
+				805EE08927363D61006F9A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		805EE06027363D5F006F9A7E /* BathApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				805EE06127363D5F006F9A7E /* BathApp.xcdatamodel */,
+			);
+			currentVersion = 805EE06127363D5F006F9A7E /* BathApp.xcdatamodel */;
+			path = BathApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 805EE04C27363D5F006F9A7E /* Project object */;
+}
